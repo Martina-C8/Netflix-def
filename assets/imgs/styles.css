@@ -1,11 +1,8 @@
 
-
-
 * {
     margin: 0px;
     padding: 0;
 }
-
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: black;
@@ -18,4 +15,9 @@ body {
 
 .bg-dark {
     --bs-bg-opacity: 0;
+}
+
+.loghi {
+    margin-top: 30px;
+    display: flex;
 }
