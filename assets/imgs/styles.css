@@ -17,7 +17,7 @@ body {
     --bs-bg-opacity: 0;
 }
 
-.loghi {
+/* .loghi {
     margin-top: 30px;
     display: flex;
 }
@@ -35,7 +35,7 @@ body {
     background-color: black;
     display: inline-block;
     border: 1px solid white;
-  }
+  } */
 
   /* .card-body {
     display: none; 
@@ -63,9 +63,10 @@ body {
     position: relative; /* Imposta la posizione relativa */
     z-index: 1; /* Assicura che la carta sia posizionata sopra il contenuto circostante */
     transition: transform 0.3s; /* Aggiungi un'animazione di transizione */
-    border: 1px solid #ccc; /* Aggiungi bordi per chiarezza */
-    border-radius: 5px; /* Aggiungi bordi arrotondati */
+    /*border: 1px solid #ccc;*/ /* Aggiungi bordi per chiarezza */
+    /*border-radius: 5px;*/ /* Aggiungi bordi arrotondati */
     overflow: hidden; /* Assicura che l'effetto di transizione non mostri parti nascoste */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
   }
   
   .card-body {
@@ -85,4 +86,18 @@ body {
   
   .card:hover {
     transform: scale(1.05); /* Effetto di ingrandimento quando la carta viene hoverata */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 992px) {
+    .col-md-3 {
+      width: 50%; /* Imposta la larghezza del col-md-3 al 50% su dispositivi medi */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .col-md-3 {
+      width: 100%; /* Imposta la larghezza del col-md-3 al 100% su dispositivi piccoli */
+    }
   }
