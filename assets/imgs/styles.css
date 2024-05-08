@@ -21,3 +21,68 @@ body {
     margin-top: 30px;
     display: flex;
 }
+
+.inAlto {
+    background-color: white;
+    width: 18px;
+    height: 18px;
+    display: flex;
+}
+
+.quadrato {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    display: inline-block;
+    border: 1px solid white;
+  }
+
+  /* .card-body {
+    display: none; 
+  }
+  
+  .card:hover .card-body {
+    display: block;
+    background-color: black;
+    color: white;
+  }
+  
+  .card {
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); 
+  } */
+  .col-md-3 {
+    float: left; /* Assicura che gli elementi rimangano in linea */
+    width: 25%; /* Imposta la larghezza desiderata */
+  }
+  
+  .card {
+    position: relative; /* Imposta la posizione relativa */
+    z-index: 1; /* Assicura che la carta sia posizionata sopra il contenuto circostante */
+    transition: transform 0.3s; /* Aggiungi un'animazione di transizione */
+    border: 1px solid #ccc; /* Aggiungi bordi per chiarezza */
+    border-radius: 5px; /* Aggiungi bordi arrotondati */
+    overflow: hidden; /* Assicura che l'effetto di transizione non mostri parti nascoste */
+  }
+  
+  .card-body {
+    position: absolute; /* Imposta la posizione assoluta */
+    bottom: 0; /* Posiziona il contenuto in basso */
+    background-color: rgba(255, 255, 255, 0.9); /* Sfondo semi-trasparente */
+    width: 100%; /* Occupa tutta la larghezza della carta */
+    padding: 10px; /* Spazio intorno al contenuto */
+    transform: translateY(100%); /* Nascondi di default il contenuto */
+    transition: transform 0.3s; /* Aggiungi un'animazione di transizione */
+    text-align: center;
+  }
+  
+  .card:hover .card-body {
+    transform: translateY(0); /* Mostra il contenuto quando la carta viene hoverata */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Effetto di ingrandimento quando la carta viene hoverata */
+  }
