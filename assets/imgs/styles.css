@@ -30,8 +30,8 @@ body {
 
 #scrollToTop {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 40px;
+  right: 60px;
   background-color: red;
   color: white;
   border: none;
@@ -47,43 +47,6 @@ body {
 
 }
 
-/* .loghi {
-    margin-top: 30px;
-    display: flex;
-}
-
-.inAlto {
-    background-color: white;
-    width: 18px;
-    height: 18px;
-    display: flex;
-}
-
-.quadrato {
-    width: 40px;
-    height: 40px;
-    background-color: black;
-    display: inline-block;
-    border: 1px solid white;
-  } */
-
-  /* .card-body {
-    display: none; 
-  }
-  
-  .card:hover .card-body {
-    display: block;
-    background-color: black;
-    color: white;
-  }
-  
-  .card {
-    transition: transform 0.3s;
-  }
-  
-  .card:hover {
-    transform: scale(1.05); 
-  } */
   .col-md-3 {
     float: left; /* Assicura che gli elementi rimangano in linea */
     width: 25%; /* Imposta la larghezza desiderata */
@@ -118,6 +81,11 @@ body {
     transform: scale(1.05); /* Effetto di ingrandimento quando la carta viene hoverata */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
+  }
+
+  .col.d-flex.mt-5 > p > ion-icon {
+    width: 60px;
+    height: 40px;
   }
 
   @media screen and (max-width: 992px) {
