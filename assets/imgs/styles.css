@@ -84,8 +84,14 @@ body {
   }
 
   .col.d-flex.mt-5 > p > ion-icon {
-    width: 60px;
-    height: 40px;
+    width: 50px;
+    height: 30px;
+  }
+
+  #contentToHide > div:nth-child(4) > div.row > div:nth-child(1) > button {
+border-radius: 0%;
+border: 1px solid white;
+background-color: black;
   }
 
   @media screen and (max-width: 992px) {
