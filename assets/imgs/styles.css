@@ -42,6 +42,11 @@ body {
   display: none;
 }
 
+#contentToHide {
+  display: none;
+
+}
+
 /* .loghi {
     margin-top: 30px;
     display: flex;
