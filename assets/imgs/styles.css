@@ -42,10 +42,7 @@ body {
   display: none;
 }
 
-#contentToHide {
-  display: none;
 
-}
 
   .col-md-3 {
     float: left; /* Assicura che gli elementi rimangano in linea */
