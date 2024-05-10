@@ -85,7 +85,7 @@ body {
     height: 30px;
   }
 
-  #contentToHide > div:nth-child(4) > div.row > div:nth-child(1) > button {
+  body > div:nth-child(3) > div:nth-child(5) > div.row > div:nth-child(1) > button {
 border-radius: 0%;
 border: 1px solid white;
 background-color: black;
